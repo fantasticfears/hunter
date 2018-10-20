@@ -9,6 +9,7 @@ include("../common.cmake")
 
 project(download-abseil)
 
+set(HUNTER_STATUS_DEBUG ON)
 # DOCUMENTATION_START {
 hunter_add_package(abseil)
 find_package(abseil CONFIG REQUIRED)
